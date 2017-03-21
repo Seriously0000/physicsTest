@@ -25,8 +25,6 @@ void setup()
 void draw() 
 {
  rect(valueX-1,valueY-1,sizeX,sizeY);
- textFont(font,fontSize);
- text("1658 bytes",0,sizeHeight-15-((fontSize-72)/5));
  if (valueX >= sizeWidth-1){
   valueX = 0;};
  if (valueY >= sizeHeight-1){
